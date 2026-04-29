@@ -22,14 +22,40 @@
 
     <main>
         <h2>Contact Us</h2>
-        <p>Put in for a table reservation, o!</p>
+
+        <h3>Our address: 124 Wallaby Way</h3><br>
+        <h3>Our Phone Number: 603-123-4567</h3><br>
+
+
+        <p>Use the form below to put in for a table reservation, or send us a message!</p>
 
         <form action="#">
-            <label for="fname">First Name</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last Name</label><br>
+            <label>Type:</label>
+            <input type="radio" name="type"> Reservation
+            <input type="radio" name="type"> Message <br>
+
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" required> *<br>
+
+            <label for="lname">Last Name:</label><br>
             <input type="text" id="lname" name="lname"><br>
-            <input type="submit" value="Place Order">
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="email" id="email" 
+                placeholder="you@example.com" required> *<br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="text" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                placeholder="XXX-XXX-XXXX"><br>
+
+            <label for="people">People:</label><br>
+            <input type="number" name="people" id="people" size="8" min="0" max="10"
+                step="1" value="0"><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="35"></textarea><br>
+
+            <input type="submit" value="Submit">
         </form>
     </main>
 
