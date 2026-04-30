@@ -20,9 +20,25 @@ body { font-size: 12px; }
 }
 
 
-/*--------GLOBAL-STYLES--------*/
+/*
+    BORDER BOX FIX
+    https//www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit
+}
+
 body {
     margin: 0;
+}
+
+
+/*--------GLOBAL-STYLES--------*/
+body {
     background: tan;
 }
 
