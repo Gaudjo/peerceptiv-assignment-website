@@ -10,12 +10,14 @@ COLOR PALETTE
 body { font-size: 14px; }
 header nav {font-size: 16px}
 nav li {padding-right: 5px;}
+.menu .card {height: 300px; width: 450px; margin: 20px 0px;}
 
 /*Tablet and up (768px+)*/
 @media (min-width: 768px) {
     body { font-size: 16px; }
     header nav {font-size: 20px;}
     nav li {padding-right: 20px;}
+    .menu .card {height: 500px; width: 350px; margin: 25px 0;}
 }
 
 /*Desktop (1024px+)*/
@@ -124,6 +126,23 @@ header a {
     display: flex;
     flex-direction: column;
 }
+
+.menu h1 {
+    text-align: center;
+    margin: 80px 0;
+    text-decoration: underline;
+}
+
+.menu h2 {
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.menu h3 {
+    text-decoration: underline;
+}
+
+
 
 
 /*--------CONTACT--------*/
