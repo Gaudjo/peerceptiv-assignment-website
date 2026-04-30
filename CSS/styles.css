@@ -26,6 +26,22 @@ body {
     background: tan;
 }
 
+/*--------NAV-BAR--------*/
+header nav {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.global-nav {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 20px;
+}
+
 
 /*--------INDEX--------*/
 
