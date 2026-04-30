@@ -21,7 +21,10 @@ body { font-size: 12px; }
 
 
 /*--------GLOBAL-STYLES--------*/
-
+body {
+    margin: 0;
+    background: tan;
+}
 
 
 /*--------INDEX--------*/
