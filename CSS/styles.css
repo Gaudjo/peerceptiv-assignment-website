@@ -4,7 +4,20 @@ COLOR PALETTE
 
 */
 
+/*--------FLEX-MEDIA-QUERIES--------*/
 
+/*Mobile*/
+body { font-size: 12px; }
+
+/*Tablet and up (768px+)*/
+@media (min-width: 768px) {
+    body { font-size: 16px; }
+}
+
+/*Desktop (1024px+)*/
+@media (min-width: 1024px) {
+    body { font-size: 18px; }
+}
 
 
 /*--------GLOBAL-STYLES--------*/
