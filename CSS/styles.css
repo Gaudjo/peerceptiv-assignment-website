@@ -8,15 +8,21 @@ COLOR PALETTE
 
 /*Mobile*/
 body { font-size: 14px; }
+header nav {font-size: 16px}
+nav li {padding-right: 5px;}
 
 /*Tablet and up (768px+)*/
 @media (min-width: 768px) {
     body { font-size: 16px; }
+    header nav {font-size: 20px;}
+    nav li {padding-right: 20px;}
 }
 
 /*Desktop (1024px+)*/
 @media (min-width: 1024px) {
     body { font-size: 18px; }
+    header nav {font-size: 24px;}
+    nav li {padding-right: 30px;}
 }
 
 
@@ -45,7 +51,7 @@ html, body {
 /*--------NAV-BAR--------*/
 header nav {
     background-color: red;
-    color: white;
+    color: maroon;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -65,6 +71,17 @@ nav img{
     max-width: 200px;
     padding-top: 10px;
     margin-left: 10px;
+}
+
+a {
+    color: whitesmoke;
+}
+a:hover {
+    color: #222;
+}
+
+header a {
+    text-decoration: none;
 }
 
 
