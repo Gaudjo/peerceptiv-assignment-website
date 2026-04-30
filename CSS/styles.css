@@ -68,7 +68,7 @@ nav img{
 
 /*--------INDEX--------*/
 .home {
-    background: url(img/restaurant-dining-area.jpg) no-repeat;
+    background: url(../img/restaurant-dining-area.jpg) no-repeat;
     background-size: cover;
     background-position: top;
     display:flex;
@@ -80,9 +80,10 @@ nav img{
 }
 
 .home .content-bg {
-    background: rgb(255 255 255 / 0.7);
+    background: rgb(255 255 255 / 0.9);
     padding: 30px;
     margin: 30px;
+    text-align: start;
 }
 
 
