@@ -63,7 +63,7 @@ header nav {
 header nav li{
     display: inline;
     list-style-type: none;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 nav img{
@@ -120,7 +120,10 @@ header a {
 
 
 /*--------MENU--------*/
-
+.menu {
+    display: flex;
+    flex-direction: column;
+}
 
 
 /*--------CONTACT--------*/
@@ -135,7 +138,7 @@ header a {
 footer{
     background: #222;
     color: gray;
-    padding: 20px;
+    padding: 30px;
     width: 100%;
     bottom: 0;
     margin-top: auto;
