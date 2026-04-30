@@ -39,7 +39,6 @@ body {
 
 /*--------GLOBAL-STYLES--------*/
 html, body {
-    background: tan;
     height: 100%;
 }
 
@@ -68,7 +67,23 @@ nav img{
 
 
 /*--------INDEX--------*/
+.home {
+    background: url(img/restaurant-dining-area.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    display:flex;
+    flex-direction: column;
+}
 
+.home .content-wrapper {
+    flex: 1 0 auto;
+}
+
+.home .content-bg {
+    background: rgb(255 255 255 / 0.7);
+    padding: 30px;
+    margin: 30px;
+}
 
 
 /*--------MENU--------*/
