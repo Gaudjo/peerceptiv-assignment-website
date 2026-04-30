@@ -38,8 +38,9 @@ body {
 
 
 /*--------GLOBAL-STYLES--------*/
-body {
+html, body {
     background: tan;
+    height: 100%;
 }
 
 /*--------NAV-BAR--------*/
@@ -50,12 +51,19 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: none;
 }
 
-.global-nav {
-    display: inline-block;
+header nav li{
+    display: inline;
     list-style-type: none;
-    margin: 0 20px;
+    margin: 0 10px;
+}
+
+nav img{
+    height: auto;
+    max-width: 200px;
+    margin-left: 10px;
 }
 
 
