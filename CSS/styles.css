@@ -15,6 +15,7 @@ nav li {padding-right: 5px;}
 .menu .card img {max-height: 300px; max-width: 150px;}
 header nav li {padding: 5px 13px;}
 .contact .form-box {width: 300px;}
+header nav li {padding-right: 25px;}
 
 /*Tablet and up (768px+)*/
 @media (min-width: 768px) {
@@ -36,7 +37,7 @@ header nav li {padding: 5px 13px;}
     .menu .card {display: flex; height: 500px; width: 100%;
         margin: 25px 0; flex-wrap: wrap;}
     .menu .card img {max-height: 170px; max-width: 100%;}
-    
+    .contact .form-box {width: 450px;}
     
 }
 
@@ -142,14 +143,6 @@ header a {
     flex-direction: column;
 }
 
-.menu ul {
- margin-top: 15px;
-}
-
-.menu li {
-    margin: 0;
-    padding: -10px;
-}
 
 .menu h1 {
     text-align: center;
