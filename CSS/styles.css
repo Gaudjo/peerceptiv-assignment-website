@@ -1,0 +1,245 @@
+/*  
+COLOR PALETTE
+----------------
+
+*/
+
+/*--------FLEX-MEDIA-QUERIES--------*/
+
+/*Extra Small Phone Screens*/
+.menu .card p {font-size: 12px;}
+header nav li {padding-right: 25px;}
+.menu .card img {max-height: 300px; max-width: 150px;}
+.menu .card {height: 300px; max-width: 100vh; margin: 10px 0px;
+    display: flex; flex-direction:row;}
+
+/*Mobile (350px+)*/
+@media (min-width: 350px) {
+    body { font-size: 14px;}
+    header nav {font-size: 16px}
+    header nav li {padding: 5px 25px;}
+    .contact .form-box {width: 300px;}
+}
+/*Tablet and up (768px+)*/
+@media (min-width: 768px) {
+    body { font-size: 18px; }
+    header nav {font-size: 20px;}
+    nav li {padding-right: 20px;}
+    .menu .card {height: 400px; width: 100%; margin: 15px 0; flex-direction: column;}
+    .menu .card img {max-height: 100px; max-width: 100%;}
+    .menu .card p {font-size: 14px;}
+    header nav li {display: inline; margin: 0 5px;}
+    .contact .form-box {width: 400px;}
+}
+
+/*Desktop (1024px+)*/
+@media (min-width: 1024px) {
+    body { font-size: 22px; }
+    header nav {font-size: 24px;}
+    nav li {padding-right: 30px;}
+    .menu .card {display: flex; height: 500px; width: 100%;
+        margin: 25px 0; flex-wrap: wrap;}
+    .menu .card img {max-height: 32%; max-width: 100%;}
+    .menu .card p {font-size: 18px}
+    .contact .form-box {width: 450px;}
+    
+}
+
+
+/*
+    BORDER BOX FIX
+    https//www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit
+}
+
+body {
+    margin: 0;
+}
+
+
+/*--------GLOBAL-STYLES--------*/
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/*--------NAV-BAR--------*/
+header nav {
+    background-color: red;
+    color: maroon;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: none;
+    max-height: 130px;
+    width: 100%;
+}
+
+header nav li{
+    list-style-type: none;
+}
+
+nav img{
+    max-height: auto;
+    max-width: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+a {
+    color: whitesmoke;
+}
+a:hover {
+    color: #222;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+/*--------INDEX--------*/
+.home {
+    background: url(../img/restaurant-dining-area.jpg) no-repeat;
+    background-color: #222;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.home .content-wrapper {
+    margin-top: 80px;
+    flex: 1 0 auto;
+}
+
+.home .content-bg {
+    background: rgb(255 255 255 / 0.9);
+    padding: 30px;
+    margin: 30px;
+    text-align: start;
+}
+
+.home h1 {
+    text-decoration: underline;
+}
+
+.home h2 {
+    margin-bottom: 100px;
+}
+
+.home h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.home p{
+    text-align: start;
+}
+
+
+/*--------MENU--------*/
+.menu {
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.menu h1 {
+    text-align: center;
+    margin: 80px 0;
+    text-decoration: underline;
+}
+
+.menu h2 {
+    padding: 20px 40px;
+    text-decoration: underline;
+}
+
+.menu h3 {
+    text-align: center;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+.menu .card {
+    background: #222;
+}
+
+.menu .card-content {
+    color: whitesmoke;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 20px 10px;
+}
+
+
+/*--------CONTACT--------*/
+.contact{
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h1 {
+    margin: 80px 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contact h2 {
+    text-align: center;
+    text-decoration: dashed;
+}
+
+.contact main p{
+    text-align: center;
+}
+
+.contact .form-box {
+    background: #222;
+    color: whitesmoke;
+    margin: 20px auto;
+}
+
+.contact form {
+    padding: 30px;
+    flex-wrap: nowrap;
+}
+
+.contact input {
+    margin-bottom: 18px;
+}
+
+/*--------THANK-YOU--------*/
+.thank {
+    background: whitesmoke;
+}
+
+.thank a {
+    color: gray;
+}
+
+.thank a:hover {
+    color: #222;
+}
+
+
+/*--------FOOTER--------*/
+footer{
+    background: #222;
+    color: gray;
+    padding: 30px;
+    width: 100%;
+    bottom: 0;
+    margin-top: auto;
+}

@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mama G's | Homepage</title>
+
+    <!--Uses jsDelivr to deliver a cached version of Bootstrap's compiled CSS and JavaScript-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link href="CSS/styles.css" rel="stylesheet">
+    <link href="CSS/fonts.css" rel="stylesheet">
+
+<!----------------------------ADDS-GOOGLE-FONTS--------------------------------->
+    <!--ADDS LORA, DANCING SCRIPT AND PLAYBALL FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Playball&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body class="home">
     <header>
         <!--GLOBAL NAVBAR-->
         <nav>
-            <img>
-            <ul>
+            <img src="img/restaurant-logo.png" alt="Mama G's Logo">
+            <ul class="global-nav">
                 <li>Home</li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -19,17 +33,22 @@
     </header>
 
     <main>
+        <div class="content-wrapper">
+            <div class="content-bg">
+                <h1>Welcome to Mama G's!</h1>
+                <h2>Home of the best Spaghetti outside of Italy!</h2>
 
-        <h1>Welcome to Mama G's!</h1>
-        <h2>Home of the best Spaghetti outside of Italy!</h2>
-
-        <div>
-            <h3>A History of Great Taste!</h3>
-            <p>Mama and Papa G came to America in 1965 and soon opened a restaurant that 
-            was dedicated to providing the best taste of Italy outside of Italy herself. 
-            Since the day that Mama G's opened her doors, we have been committed to providing
-            amazing food, excellent service and a dining experience that you won't soon forget! </p>
+                <div>
+                    <h3>A History of Great Taste!</h3>
+                    <p>Mama and Papa G came to America in 1965 and soon opened a restaurant that 
+                    was dedicated to providing the best taste of Italy outside of Italy herself. 
+                    Since the day that Mama G's opened her doors, we have been committed to providing
+                    amazing food, excellent service and a dining experience that you won't soon forget! </p>
+                </div>
+            </div>
+             
         </div>
+        
         
     </main>
 

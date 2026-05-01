@@ -6,17 +6,27 @@
     <title>Mama G's | Menu</title>
 
     <!--Uses jsDelivr to deliver a cached version of Bootstrap's compiled CSS and JavaScript-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link href="CSS/styles.css" rel="stylesheet">
+    <link href="CSS/fonts.css" rel="stylesheet">
+
+<!----------------------------ADDS-GOOGLE-FONTS--------------------------------->
+    <!--ADDS LORA, DANCING SCRIPT AND PLAYBALL FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Playball&display=swap" rel="stylesheet">
 
 </head>
 
-<body>
+<body class="menu">
     
     <header>
         <!--GLOBAL NAVBAR-->
         <nav>
-            <img>
-            <ul>
+            <img src="img/restaurant-logo.png" alt="Mama G's Logo">
+            <ul class="global-nav">
                 <li><a href="index.html">Home</a></li>
                 <li>Menu</li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -30,23 +40,23 @@
         <!--Menu area | Will display rows of 3 cards and then will drop down to one column at the md breakpoint-->
         <div class="container">
             <!--SPAGHETTI SECTION-->
-            <div class="row">
-                <h2>Spaghetti</h2>
+            <div class="row g-2 g-md-5">
+                <h2>Spaghetti:</h2>
                 <p>From Mama G's stove-top to your table. These are the original dishes that made us what we are today!</p>
                 <br>
                 <p>*All entree options come with a side-salad and breadsticks</p>
                 <div class="col-md-4">
                     <div class="card">
-                        <img alt="Spaghetti & Meat Sauce">
+                        <img src="img/spaghetti.jpg" alt="Spaghetti & Meat Sauce">
                         <div class="card-content">
                             <h3>Mama's Original</h3>
-                            <p>The recipe that started it all! A plate of homemade pasta topped with an amazing blend of Mama G's special red sauce mixed with ground hamburger and ground sausage./p>
+                            <p>The recipe that started it all! A plate of homemade pasta topped with an amazing blend of Mama G's special red sauce mixed with ground hamburger and ground sausage.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img alt="Spaghetti & Meatballs">
+                        <img src="img/spaghetti-meatballs.png" alt="Spaghetti & Meatballs">
                         <div class="card-content">
                             <h3>Papa's Favorite</h3>
                             <p>Papa loved all of Mama's cooking. But this was always his favorite. A plate of Angel Hair pasta topped with Mama G's special red sauce and a mountain of Meatballs made straight from Mama's special recipe.</p>
@@ -55,26 +65,24 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img alt="Chicken Alfredo">
+                        <img src="img/chicken-alfredo.jpg" alt="Chicken Alfredo">
                         <div class="card-content">
                             <h3>Chicken Alfredo</h3>
-                            <p>Though Mama invented an amazing red sauce, her alfredo sauce is no slouch! A plate of linguine topped with Mama G's creamy alfredo sauce. Served with your choice a side of crispy or grilled chicken strips.</p>
-                            <br>
-                            <p>*Add brocoli for $2</p>
+                            <p>Though Mama invented an amazing red sauce, her alfredo sauce is no slouch! A plate of ziti topped with Mama G's creamy alfredo sauce. Served with your choice a side of crispy or grilled chicken strips.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!--PIZZA SECTION-->
-            <div class="row">
-                <h2>Pizza</h2>
+            <div class="row  g-2 g-md-5">
+                <h2>Pizza: </h2>
                 <p>Mama might have gotten her start making Spaghetti, but her Pizza is sure to make you long to walk the streets of Rome.
                     Sit back and enjoy the best Pizza outside of Italy!
                 </p>
                 <div class="col-md-4">
                     <div class="card">
-                        <img alt="Cheese Pizza">
+                        <img src="img/classic-pizza.jpg" alt="Cheese Pizza">
                         <div class="card-content">
                             <h3>The Classic</h3>
                             <p>Sometimes you just can't beat the classics. A traditional Cheese Pizza that will make you feel like you are back in Italy.</p>
@@ -83,7 +91,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img alt="Pizza with Bacon and Green Peppers">
+                        <img src="img/greenpepper-bacon-pizza.jpg" alt="Pizza with Bacon and Green Peppers">
                         <div class="card-content">
                             <h3>The Mama Mia</h3>
                             <p>Mama made this Pizza to celebrate her oldest daughter Mia becoming a mother for the first time. An amazing Cheese Pizza base topped with Bacon and Green Pepper.</p>
@@ -92,7 +100,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img alt="Hawaiian Pizza">
+                        <img src="img/Hawaiian-Pizza.jpg" alt="Hawaiian Pizza">
                         <div class="card-content">
                             <h3>The Trip</h3>
                             <p>Papa took Mama on a trip to Honolulu for their 30th wedding anniversary. While there, Mama was inspired to invent this Pizza. A delicious Cheese Pizza base topped with Pineapple, Bacon, and Ham.</p>
