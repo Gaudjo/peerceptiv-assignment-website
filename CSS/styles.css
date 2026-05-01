@@ -20,8 +20,8 @@ header nav li {padding: 5px 13px;}
     body { font-size: 18px; }
     header nav {font-size: 20px;}
     nav li {padding-right: 20px;}
-    .menu .card {height: 400px; width: 180px; margin: 15px 0; flex-direction: column;}
-    .menu .card img {max-height: 100px; max-width: 180px;}
+    .menu .card {height: 400px; width: 100%; margin: 15px 0; flex-direction: column;}
+    .menu .card img {max-height: 100px; max-width: 100%;}
     .menu p {font-size: 14px;}
     header nav li {display: inline; margin: 0 5px;}
 }
@@ -82,7 +82,7 @@ nav img{
     max-height: auto;
     max-width: 200px;
     padding-top: 10px;
-    margin-left: 10px;
+    padding-left: 10px;
 }
 
 a {
@@ -134,6 +134,7 @@ header a {
 
 /*--------MENU--------*/
 .menu {
+    background: rgb(241, 210, 169);
     display: flex;
     flex-direction: column;
 }
@@ -153,7 +154,12 @@ header a {
     text-decoration: underline;
 }
 
+.menu .card {
+    background: #222;
+}
+
 .menu .card-content {
+    color: whitesmoke;
     flex: 0 1 auto;
     flex-wrap: wrap;
     text-align: left;
