@@ -144,6 +144,11 @@ header a {
     text-decoration: underline;
 }
 
+.menu img{
+    max-height: 180px;
+    max-width: 350px;
+}
+
 
 
 
