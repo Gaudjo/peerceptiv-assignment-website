@@ -7,22 +7,24 @@ COLOR PALETTE
 /*--------FLEX-MEDIA-QUERIES--------*/
 
 /*Mobile*/
-body { font-size: 14px; }
-header nav {font-size: 16px}
+body { font-size: 15px; }
+header nav {font-size: 18px}
 nav li {padding-right: 5px;}
 .menu .card {height: 300px; width: 450px; margin: 20px 0px;}
+header nav li {padding: 5px 13px;}
 
 /*Tablet and up (768px+)*/
 @media (min-width: 768px) {
-    body { font-size: 16px; }
+    body { font-size: 18px; }
     header nav {font-size: 20px;}
     nav li {padding-right: 20px;}
     .menu .card {height: 500px; width: 350px; margin: 15px 0;}
+    header nav li {display: inline; margin: 0 5px;}
 }
 
 /*Desktop (1024px+)*/
 @media (min-width: 1024px) {
-    body { font-size: 18px; }
+    body { font-size: 20px; }
     header nav {font-size: 24px;}
     nav li {padding-right: 30px;}
     .menu .card {height: 500px; width: 350px; margin: 25px 0;}
@@ -64,9 +66,7 @@ header nav {
 }
 
 header nav li{
-    display: inline;
     list-style-type: none;
-    margin: 0 5px;
 }
 
 nav img{
@@ -91,8 +91,9 @@ header a {
 /*--------INDEX--------*/
 .home {
     background: url(../img/restaurant-dining-area.jpg) no-repeat;
+    background-color: #222;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     display:flex;
     flex-direction: column;
 }
