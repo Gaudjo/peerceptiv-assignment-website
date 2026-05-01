@@ -24,42 +24,46 @@
     </header>
 
     <main>
-        <h2>Contact Us</h2>
+        <h1>Contact Us</h1>
 
-        <h3>Our address: 124 Wallaby Way</h3><br>
-        <h3>Our Phone Number: 603-123-4567</h3><br>
+        <h2>Our address: 124 Wallaby Way</h2><br>
+        <h2>Our Phone Number: 603-123-4567</h2><br>
 
 
         <p>Use the form below to put in for a table reservation, or send us a message!</p>
 
-        <form action="thankyou.html">
-            <label>Type:</label>
-            <input type="radio" name="type" required> Reservation
-            <input type="radio" name="type" required> Message <br>
+        <div class="form-box">
+            <form action="thankyou.html">
+                <label>Type:</label>
+                <input type="radio" name="type" required> Reservation
+                <input type="radio" name="type" required> Message <br>
 
-            <label for="fname">First Name:</label><br>
-            <input type="text" id="fname" name="fname" required> *<br>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" required> *<br>
 
-            <label for="lname">Last Name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
 
-            <label for="email">E-mail:</label><br>
-            <input type="email" name="email" id="email" 
-                placeholder="you@example.com" required> *<br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" name="email" id="email" 
+                    placeholder="you@example.com" required> *<br>
 
-            <label for="phone">Phone:</label><br>
-            <input type="text" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
-                placeholder="XXX-XXX-XXXX"><br>
+                <label for="phone">Phone:</label><br>
+                <input type="text" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                    placeholder="XXX-XXX-XXXX"><br>
 
-            <label for="people">People:</label><br>
-            <input type="number" name="people" id="people" size="8" min="0" max="10"
-                step="1" value="0"><br>
+                <label for="people">People:</label><br>
+                <input type="number" name="people" id="people" size="8" min="0" max="10"
+                    step="1" value="0"><br>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="5" cols="35"></textarea><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="32"></textarea><br>
 
-            <input type="submit" value="Submit">
-        </form>
+                <input type="submit" value="Submit">
+            </form>  
+
+        </div>
+        
     </main>
 
     <footer>
