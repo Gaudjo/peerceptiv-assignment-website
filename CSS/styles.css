@@ -7,7 +7,7 @@ COLOR PALETTE
 /*--------FLEX-MEDIA-QUERIES--------*/
 
 /*Mobile*/
-body { font-size: 14px;}
+body { font-size: 16px;}
 header nav {font-size: 16px}
 nav li {padding-right: 5px;}
 .menu .card {height: 300px; max-width: 100vh; margin: 10px 0px;
@@ -17,7 +17,7 @@ header nav li {padding: 5px 13px;}
 
 /*Tablet and up (768px+)*/
 @media (min-width: 768px) {
-    body { font-size: 18px; }
+    body { font-size: 20px; }
     header nav {font-size: 20px;}
     nav li {padding-right: 20px;}
     .menu .card {height: 400px; width: 100%; margin: 15px 0; flex-direction: column;}
@@ -28,7 +28,7 @@ header nav li {padding: 5px 13px;}
 
 /*Desktop (1024px+)*/
 @media (min-width: 1024px) {
-    body { font-size: 20px; }
+    body { font-size: 24px; }
     header nav {font-size: 24px;}
     nav li {padding-right: 30px;}
     .menu .card {display: flex; height: 500px; width: 100%;
